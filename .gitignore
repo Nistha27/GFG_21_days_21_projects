@@ -1,0 +1,38 @@
+# System Files
+.DS_Store
+Thumbs.db
+desktop.ini
+__MACOSX/
+._*
+
+# IDE
+.vscode/settings.json
+.idea/workspace.xml
+
+# Jupyter/VSCode temporary files
+.virtual_documents/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints (keep .ipynb_checkpoints as they may contain useful backups)
+# .ipynb_checkpoints/
+
+# Python virtual environments (if any)
+venv/
+env/
+ENV/
+
+# Environment variables and secrets (CRITICAL - DO NOT COMMIT)
+.env
+*.env
+!.env.example
+*.key
+*.pem
+*_secret*
+*_token*
+
+# Large file placeholder (if we compress the CSV)
+# *.csv.gz
+
